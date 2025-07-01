@@ -37,7 +37,7 @@ body:
     attributes:
       label: Additional Comments
       description: provide additonal comments or context for the task steps.
-      placeholder: - you can the use `touch` command to create the file.
+      placeholder: you can the use `touch` command to create the file.
     validations:
       required: true
 
