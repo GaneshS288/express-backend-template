@@ -11,8 +11,7 @@ body:
       description: A couple sentences describing what the task should do.
       placeholder: ex 'Add a file to the repository'
     validations:
-      required: false
-      
+      required: false     
   - type: dropdown
     id: scope
     attributes:
@@ -25,7 +24,6 @@ body:
         - Database
     validations:
       required: true
-
   - type: textarea
     id: task-steps
     attributes:
@@ -34,7 +32,6 @@ body:
       value: '- [ ] create a file named test.md' 
     validations:
       required: true
-
   - type: textarea
     id: additional-comments
     attributes:
