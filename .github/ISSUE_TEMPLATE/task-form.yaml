@@ -31,7 +31,7 @@ body:
     validations:
       required: false
 
-  - type: checkbox
+  - type: checkboxes
     id: issue-requirements
     attributes:
       label: Issue requirements
