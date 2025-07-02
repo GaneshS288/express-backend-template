@@ -7,23 +7,12 @@ body:
   - type: textarea
     id: task-summary
     attributes:
-      label: Task Summary
+      label: Task Summary (Optional)
       description: A couple sentences describing what the task should do.
       placeholder: ex 'Add a file to the repository'
     validations:
       required: false     
-  - type: dropdown
-    id: scope
-    attributes:
-      label: Scope
-      description: what is the scope of this issue?
-      multiple: true
-      options:
-        - Backend
-        - Frontend
-        - Database
-    validations:
-      required: true
+  
   - type: textarea
     id: task-steps
     attributes:
@@ -32,13 +21,25 @@ body:
       value: '- [ ] create a file named test.md' 
     validations:
       required: true
+
   - type: textarea
     id: additional-comments
     attributes:
-      label: Additional Comments
-      description: provide additonal comments or context for the task steps.
+      label: Additional Comments (Optional)
+      description: Provide additonal comments or context for the task steps.
       placeholder: you can the use `touch` command to create the file.
     validations:
       required: false
+
+  - type: checkbox
+    id: issue-requirements
+    attributes:
+      label: Issue requirements
+      description: Please make sure you have done the below requirements. Fill out the checkboxes if you have.
+      options: 
+        - label: I have assigned appropriate scope label (backend, frontend, db) to this issue.
+          required: true
+        - label: I have added this issue to the relevent project.
+          required: true 
 
         
