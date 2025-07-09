@@ -8,5 +8,5 @@ jobs:
       - uses: actions/node-setup@v4
         with:
           node-version: '22'
-        run: npm i --only=dev
-        run: prettier -w .  
+      - run: npm i --only=dev
+      - run: prettier -w .  
