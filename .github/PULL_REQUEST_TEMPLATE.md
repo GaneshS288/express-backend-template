@@ -2,8 +2,7 @@
 
 <!-- Replace the whitespace between the square brackets with an 'x', e.g. [x]. After you create the PR, they will become checked otherwise they will stay unchecked. -->
 
--   [ ] There is a corrsponding issue for this PR and it is assigned to me.
-
+- [ ] There is a corrsponding issue for this PR and it is assigned to me.
 
 ## Because
 

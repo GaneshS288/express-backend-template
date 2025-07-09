@@ -1,12 +1,12 @@
 name: run-prettier
 on: [pull_request]
-jobs: 
-  setup-node:
-    runs-on: ubuntu-latest
-    steps: 
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm i --only=dev
-      - run: npx prettier -c .  
+jobs:
+    setup-node:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '22'
+            - run: npm i --only=dev
+            - run: npx prettier -c .

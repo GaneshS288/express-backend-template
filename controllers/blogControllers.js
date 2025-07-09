@@ -1,4 +1,4 @@
-import { findAllUserBlogs, findBlogById, createBlog } from "../db/blogQueries";
+import { findAllUserBlogs, findBlogById, createBlog } from '../db/blogQueries';
 
 //uses GET "/api/blogs" route
 function getAllBlogs(req, res) {

@@ -1,26 +1,26 @@
 {
-  "name": "express-backend-template",
-  "version": "1.0.0",
-  "description": "This repository is only meant to be seen as an example of how an express backend folder and file structure may look like",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GaneshS288/express-backend-template.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GaneshS288/express-backend-template/issues"
-  },
-  "homepage": "https://github.com/GaneshS288/express-backend-template#readme",
-  "dependencies": {
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "prettier": "3.6.2"
-  }
+    "name": "express-backend-template",
+    "version": "1.0.0",
+    "description": "This repository is only meant to be seen as an example of how an express backend folder and file structure may look like",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GaneshS288/express-backend-template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GaneshS288/express-backend-template/issues"
+    },
+    "homepage": "https://github.com/GaneshS288/express-backend-template#readme",
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "prettier": "3.6.2"
+    }
 }

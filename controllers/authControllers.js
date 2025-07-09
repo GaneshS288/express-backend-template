@@ -6,4 +6,4 @@ function signupUser(req, res) {
     //logic for signing up user
 }
 
-export { loginUser, signupUser }
+export { loginUser, signupUser };
