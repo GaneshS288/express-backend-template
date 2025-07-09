@@ -1,0 +1,12 @@
+name: run-prettier
+on: [pull_request]
+jobs: 
+  setup-node:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actins/checkout@v4
+      - uses: actions/node-setup@v4
+        with:
+          node-version: '22'
+        run: npm i --only=dev
+        run: prettier -w .  

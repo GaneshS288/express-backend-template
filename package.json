@@ -19,5 +19,8 @@
   "homepage": "https://github.com/GaneshS288/express-backend-template#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
   }
 }
