@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '22'
       - run: npm i --only=dev
-      - run: prettier -w .  
+      - run: npx prettier -w .  
